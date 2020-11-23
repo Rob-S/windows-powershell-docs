@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Clear-ADAccountExpiration
@@ -346,5 +346,7 @@ Microsoft.ActiveDirectory.Management.ADServiceAccount
 
 [Set-ADAccountExpiration](./Set-ADAccountExpiration.md)
 
-[Get-ADUser Get-ADComputer](00000000-0000-0000-0000-000000000000)
+[Get-ADUser](./Get-ADUser.md)
+
+[Get-ADComputer](./Get-ADComputer.md)
 

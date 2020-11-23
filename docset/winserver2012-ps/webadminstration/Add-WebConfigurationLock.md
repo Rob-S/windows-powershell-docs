@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Add-WebConfigurationLock
@@ -173,6 +173,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## RELATED LINKS
 
 [Remove-WebConfigurationLock](./Remove-WebConfigurationLock.md)
-
-[Unkown](00000000-0000-0000-0000-000000000000)
-

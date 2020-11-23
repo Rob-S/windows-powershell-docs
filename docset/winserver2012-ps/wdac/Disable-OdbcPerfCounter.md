@@ -3,8 +3,8 @@ external help file: WDAC_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 631FD972-CCC6-4D8D-AACF-B5D16AB968DB
 manager: dansimp
 ---
@@ -203,5 +203,5 @@ Accept wildcard characters: False
 
 [Get-OdbcPerfCounter](./Get-OdbcPerfCounter.md)
 
-[N:Wdac](00000000-0000-0000-0000-000000000000)
+
 

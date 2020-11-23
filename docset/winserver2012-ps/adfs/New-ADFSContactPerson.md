@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # New-ADFSContactPerson
@@ -131,8 +131,3 @@ A class structure that represents a contact person object in the Federation Serv
 * You can publish this contact person in the federation metadata of the Federation Service by using the Set-ADFSProperties cmdlet.
 
 ## RELATED LINKS
-
-[Get-ADFSProperties](00000000-0000-0000-0000-000000000000)
-
-[Set-ADFSProperties](00000000-0000-0000-0000-000000000000)
-

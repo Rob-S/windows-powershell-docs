@@ -3,8 +3,8 @@ external help file: WDAC_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: EF357356-FDCE-4016-AB5E-34F841B412CB
 manager: dansimp
 ---
@@ -289,5 +289,5 @@ Accept wildcard characters: False
 
 [Get-WdacBidTrace](./Get-WdacBidTrace.md)
 
-[N:Wdac](00000000-0000-0000-0000-000000000000)
+
 

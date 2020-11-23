@@ -3,8 +3,8 @@ external help file: Iscsi_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 8740AFC8-89A6-404C-967D-F7C0D3877BC5
 manager: dansimp
 ---
@@ -248,11 +248,4 @@ The path after the pound sign (`#`) provides the namespace and class name for th
 
 ## RELATED LINKS
 
-[iSCSI on TechNet](HYPERLINK "/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee338476(v=ws.10)" /previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee338476(v=ws.10))
-
-[Storage on TechNet](HYPERLINK "http://technet.microsoft.com/en-us/library/ee344838(WS.10).aspx" http://technet.microsoft.com/en-us/library/ee344838(WS.10).aspx)
-
-[N:MPIO](00000000-0000-0000-0000-000000000000)
-
-[N:Storage](00000000-0000-0000-0000-000000000000)
-
+[iSCSI Target Server Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh848272(v=ws.11))

@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Enable-WebGlobalModule
@@ -159,5 +159,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Disable-WebGlobuleModule](00000000-0000-0000-0000-000000000000)
+[Disable-WebGlobalModule](./Disable-WebGlobalModule.md)
 

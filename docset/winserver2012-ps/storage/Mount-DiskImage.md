@@ -3,8 +3,8 @@ external help file: Storage2_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: E10B4E05-1D98-4EAA-A6BE-2D3F4A885746
 manager: dansimp
 ---
@@ -247,5 +247,5 @@ If you specify the **Passthru** parameter, this cmdlet outputs an object that re
 
 [Get-DiskImage](./Get-DiskImage.md)
 
-[New-VHD](00000000-0000-0000-0000-000000000000)
+[New-VHD](../hyper-v/New-VHD.md)
 

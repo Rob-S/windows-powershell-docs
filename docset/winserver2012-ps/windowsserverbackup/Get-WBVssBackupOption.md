@@ -3,8 +3,8 @@ external help file: WSBackup_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 0B8B0A93-ED16-4E01-9140-5F8386D8803D
 manager: dansimp
 ---
@@ -72,5 +72,4 @@ The **Get-WBVssBackupOptions** cmdlet returns either VssCopyBackup or VssFullBac
 
 [New-WBPolicy](./New-WBPolicy.md)
 
-[Set-WBVSSBackupOptions](00000000-0000-0000-0000-000000000000)
-
+[Set-WBVssBackupOption](./Set-WBVssBackupOption.md)

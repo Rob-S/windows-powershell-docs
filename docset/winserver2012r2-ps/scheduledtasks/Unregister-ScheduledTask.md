@@ -6,14 +6,14 @@ schema: 2.0.0
 title: Unregister-ScheduledTask
 description:
 keywords: powershell, cmdlet
-author: andreabarr
+author: Kateyanne
 manager: jasgro
-ms.date: 2017-10-29
+ms.date: 10/29/2017
 ms.topic: reference
 ms.prod: powershell
 ms.technology: powershell
 ms.assetid: 0A57ABC4-35A8-43B2-81C2-193EB5E1FDA7
-ms.author: v-anbarr
+ms.author: v-kaunu
 ms.reviewer: brianlic
 ---
 
@@ -93,7 +93,7 @@ Aliases: cf
 
 Required: False
 Position: Named
-Default value: False
+Default value: True
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

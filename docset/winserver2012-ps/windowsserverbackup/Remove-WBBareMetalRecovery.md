@@ -3,8 +3,8 @@ external help file: WSBackup_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: C9F83CE2-82E8-4492-9879-717128970A4A
 manager: dansimp
 ---
@@ -75,8 +75,6 @@ None
 [Add-WBBareMetalRecovery](./Add-WBBareMetalRecovery.md)
 
 [Get-WBBareMetalRecovery](./Get-WBBareMetalRecovery.md)
-
-[Get-WBObject](00000000-0000-0000-0000-000000000000)
 
 [Remove-WBBareMetalRecovery](./Remove-WBBareMetalRecovery.md)
 

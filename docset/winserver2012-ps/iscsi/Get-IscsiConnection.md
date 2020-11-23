@@ -3,8 +3,8 @@ external help file: Iscsi_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: E566D297-76AD-48D0-B5AF-11674F23B080
 manager: dansimp
 ---
@@ -342,9 +342,7 @@ The path after the pound sign (`#`) provides the namespace and class name for th
 
 ## RELATED LINKS
 
-[iSCSI on TechNet](HYPERLINK "/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee338476(v=ws.10)" /previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee338476(v=ws.10))
-
-[Storage on TechNet](HYPERLINK "http://technet.microsoft.com/en-us/library/ee344838(WS.10).aspx" http://technet.microsoft.com/en-us/library/ee344838(WS.10).aspx)
+[iSCSI Target Server Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh848272(v=ws.11))
 
 [Get-IscsiSession](./Get-IscsiSession.md)
 
@@ -353,7 +351,5 @@ The path after the pound sign (`#`) provides the namespace and class name for th
 [Get-IscsiTargetPortal](./Get-IscsiTargetPortal.md)
 
 [Get-Disk](../storage/Get-Disk.md)
-
-[Get-InitiatorPort](../Storage2_Cmdlets/Get-InitiatorPort.md)
 
 [Get-InitiatorPort](../storage/Get-InitiatorPort.md)

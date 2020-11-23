@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Get-ADOrganizationalUnit
@@ -457,9 +457,9 @@ To get a list of all the properties of an **ADOrganizational** object, use the f
 
 ## RELATED LINKS
 
-[New-ADOrganizational unit](00000000-0000-0000-0000-000000000000)
+[New-ADOrganizationalUnit](./New-ADOrganizationalUnit.md)
 
-[Set-ADOrganizational unit](00000000-0000-0000-0000-000000000000)
+[Set-ADOrganizationalUnit](./Set-ADOrganizationalUnit.md)
 
-[Remove-ADOrganizational unit](00000000-0000-0000-0000-000000000000)
+[Remove-ADOrganizationalUnit](./Remove-ADOrganizationalUnit.md)
 

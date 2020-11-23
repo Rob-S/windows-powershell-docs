@@ -3,8 +3,8 @@ external help file: SmbShare_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 901BD906-798D-4C09-9C84-4FD2B1E19260
 manager: dansimp
 ---
@@ -186,7 +186,7 @@ The MSFT_SmbConnection object represent the per share per user logon per credent
 
 ## RELATED LINKS
 
-[Get-SmbMultichannelConnection{{INSERT_A_VALID_LINK}}](00000000-0000-0000-0000-000000000000)
+[Get-SmbMultichannelConnection](./Get-SmbMultichannelConnection.md)
 
 [Update-SmbMultichannelConnection](./Update-SmbMultichannelConnection.md)
 

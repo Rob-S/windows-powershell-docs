@@ -3,8 +3,8 @@ external help file: Storage2_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 4084251C-5301-45DD-B710-20A7ED67799B
 manager: dansimp
 ---
@@ -300,7 +300,7 @@ When you specify the **Passthru** parameter, this cmdlet outputs an object repre
 
 [Initialize-Disk](./Initialize-Disk.md)
 
-[New-Partiton](00000000-0000-0000-0000-000000000000)
+[New-Partiton](./New-Partition.md)
 
 [Set-Disk](./Set-Disk.md)
 

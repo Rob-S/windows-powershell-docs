@@ -1,18 +1,18 @@
 ---
-author: andreabarr
+author: Kateyanne
 description: Use this topic to help manage Windows and Windows Server technologies with Windows PowerShell.
 external help file: Microsoft.Windows.Appx.PackageManager.Commands.dll-help.xml
 keywords: powershell, cmdlet
 manager: jasgro
 Module Name: Appx
 ms.assetid: 40B54C64-C3EB-4898-AE19-CDD5CA3BD70E
-ms.author: v-anbarr
+ms.author: v-kaunu
 ms.date: 12/20/2016
 ms.mktglfcycl: manage
 ms.prod: w10
 ms.reviewer:
 ms.sitesec: library
-ms.technology: powershell-windows
+ms.technology: 
 ms.topic: reference
 online version:
 schema: 2.0.0
@@ -31,7 +31,9 @@ Adds a signed app package to a user account.
 Add-AppxPackage [-Path] <String> [-DependencyPath <String[]>] [-RequiredContentGroupOnly]
  [-ForceApplicationShutdown] [-ForceTargetApplicationShutdown] [-ForceUpdateFromAnyVersion]
  [-RetainFilesOnFailure] [-InstallAllResources] [-Volume <AppxVolume>] [-ExternalPackages <String[]>]
- [-OptionalPackages <String[]>] [-RelatedPackages <String[]>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-DeferRegistrationWhenPackagesAreInUse] [-OptionalPackages <String[]>] [-RelatedPackages <String[]>] 
+
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AddByAppInstallerSet
@@ -94,7 +96,15 @@ PS C:\> Add-AppxPackage -Path "C:\Users\user1\Desktop\MyApp.msix" -DependencyPat
 
 This command adds an app package that the package contains.
 
-### Example 2: Add a disabled app package in development mode
+### Example 2: Update an app, but defer registration until the app has closed
+
+```
+PS C:\> Add-AppxPackage -Path "C:\Users\user1\Desktop\MyApp.msix" -DependencyPath "C:\Users\user1\Desktop\winjs.msix" -DeferRegistrationWhenPackagesAreInUse
+```
+
+This command will register an update to an existing app, but will not do so until the next launch of the app.
+
+### Example 3: Add a disabled app package in development mode
 ```
 PS C:\> $ManifestPath = (Get-AppxPackage -Name "*WindowsCalculator*").InstallLocation + "\Appxmanifest.xml"
 PS C:\> Add-AppxPackage -Path $ManifestPath -Register -DisableDevelopmentMode
@@ -103,7 +113,7 @@ PS C:\> Add-AppxPackage -Path $ManifestPath -Register -DisableDevelopmentMode
 This command gets the full path of the package manifest file of an installed Windows Store app, and then registers that package.
 You can use *DisableDevelopmentMode* to register an application that is staged by the **StagePackageAsync** API, has been disabled, or has become corrupted during testing.
 
-### Example 3: Add an app along with its optional packages
+### Example 4: Add an app along with its optional packages
 ```
 PS C:\> Add-AppxPackage -Path "C:\Users\user1\Desktop\MyApp.msixbundle" -ExternalPackages "C:\Users\user1\Desktop\optionalpackage1.msix","C:\Users\user1\Desktop\optionalpackage2.msixbundle"
 
@@ -112,7 +122,7 @@ PS C:\> Add-AppxPackage -Path "C:\Users\user1\Desktop\MyApp.msixbundle" -Optiona
 
 This command adds an app package along with its optional packages. It is an atomic operation which means that if the app or its optional packages fail to install, the deployment operation will be aborted
 
-### Example 4: Install only the required section of a streaming app
+### Example 5: Install only the required section of a streaming app
 ```
 PS C:\> Add-AppxPackage -Path "C:\Users\user1\Desktop\MyApp.msixbundle" -RequiredContentGroupOnly
 ```
@@ -156,7 +166,7 @@ Accept wildcard characters: False
 ### -DisableDevelopmentMode
 Indicates that this cmdlet registers an existing app package installation that has been disabled, did not register, or has become corrupted.
 Use the current parameter to specify that the manifest is from an existing installation, and not from a collection of files in development mode.
-You can also use this parameter to register an application that the [Package Manager API](http://go.microsoft.com/fwlink/?LinkId=245447) has staged.
+You can also use this parameter to register an application that the [Package Manager API](https://go.microsoft.com/fwlink/?LinkId=245447) has staged.
 Use the *Register* parameter to specify the location of the app package manifest .xml file from the installation location.
 
 ```yaml
@@ -498,6 +508,22 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -DeferRegistrationWhenPackagesAreInUse
+Specifies that the app will not register for a user if currently in use. The app will update on the next launch.
+
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: AddSet
+Aliases:
+ 
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -515,9 +541,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Package Manager API](http://go.microsoft.com/fwlink/?LinkId=245447)
+[Package Manager API](https://go.microsoft.com/fwlink/?LinkId=245447)
 
-[How to Add and Remove Apps](http://go.microsoft.com/fwlink/?LinkID=231020)
+[How to Add and Remove Apps](https://go.microsoft.com/fwlink/?LinkID=231020)
 
 [Get-AppxPackage](./Get-AppxPackage.md)
 

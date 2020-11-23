@@ -1,15 +1,15 @@
 ---
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 description: Use this topic to help manage Windows and Windows Server technologies with Windows PowerShell.
 external help file: StorageScripts-help.xml
 keywords: powershell, cmdlet
 manager: jasgro
 ms.date: 12/20/2016
 ms.prod: w10
-ms.technology: powershell-windows
+ms.technology: 
 ms.topic: reference
 online version:
 schema: 2.0.0
@@ -65,7 +65,7 @@ To specify a different number of hours, use the *TimeSpan* parameter.
 
 ### Example 1: Get all logs and dumps for a cluster subsystem
 ```
-PS C:\>Get-StorageDiagnostics -StorageSubSystemName "VMMCluster.contoso.corp.microsoft.com" -DestinationPath "\\FileShare1\Debug\"
+PS C:\>Get-StorageDiagnosticInfo -StorageSubSystemName "VMMCluster.contoso.corp.microsoft.com" -DestinationPath "\\FileShare1\Debug\"
 ```
 
 This command gets all types of logs and dumps for the specified Storage cluster subsystem.
@@ -268,7 +268,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

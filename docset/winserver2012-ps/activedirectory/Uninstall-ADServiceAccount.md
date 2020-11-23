@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Uninstall-ADServiceAccount
@@ -211,9 +211,9 @@ A switch parameter with name ForceRemoveLocal is provided to un-install standalo
 
 [Install-ADServiceAccount](./Install-ADServiceAccount.md)
 
-[New-ADService account](00000000-0000-0000-0000-000000000000)
+[New-ADServiceAccount](./New-ADServiceAccount.md)
 
-[Remove-ADService account](00000000-0000-0000-0000-000000000000)
+[Remove-ADServiceAccount](./Remove-ADServiceAccount.md)
 
-[Set-ADService account](00000000-0000-0000-0000-000000000000)
+[Set-ADServiceAccount](./Set-ADServiceAccount.md)
 

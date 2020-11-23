@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Install-ADDSDomain
@@ -491,5 +491,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Install-ADDSForest](./Install-ADDSForest.md)
 
-[Install-ADDS-Domain](00000000-0000-0000-0000-000000000000)
+[Install-ADDSDomain](./Install-ADDSDomain.md)
 

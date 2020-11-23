@@ -1,15 +1,15 @@
 ---
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 description: Use this topic to help manage Windows and Windows Server technologies with Windows PowerShell.
 external help file: Microsoft.ActiveDirectory.Management.dll-Help.xml
 keywords: powershell, cmdlet
 manager: jasgro
 ms.date: 12/27/2016
 ms.prod: w10
-ms.technology: powershell-windows
+ms.technology: 
 ms.topic: reference
 online version: 
 schema: 2.0.0
@@ -41,7 +41,7 @@ Get-ADReplicationConnection [-AuthType <ADAuthType>] [-Credential <PSCredential>
 The **Get-ADReplicationConnection** cmdlet returns a specific Active Directory replication connection or a set of Active Directory replication connection objects based on a specified filter.
 Connections are used to enable domain controllers to replicate with each other.
 A connection defines a one-way, inbound route from one domain controller (the source), to another domain controller (the destination).
-The Kerberos consistency checker (KCC) reuses existing connections where it can, deletes unused connections, and creates new connections if none exist that meet the current need.
+The Knowledge Consistency Checker (KCC) reuses existing connections where it can, deletes unused connections, and creates new connections if none exist that meet the current need.
 
 ## EXAMPLES
 
@@ -236,7 +236,7 @@ Accept wildcard characters: False
 ```
 
 ### CommonParameters
-This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -252,4 +252,3 @@ A connection object is received by the *Identity* parameter.
 ## RELATED LINKS
 
 [Set-ADReplicationConnection](./Set-ADReplicationConnection.md)
-

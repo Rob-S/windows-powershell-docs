@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Test-ADDSForestInstallation
@@ -345,6 +345,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Test-ADDSDomainInstallation](./Test-ADDSDomainInstallation.md)
 
 [Test-ADDSDomainControllerInstallation](./Test-ADDSDomainControllerInstallation.md)
-
-[Install-ADDSDomainInstallation](00000000-0000-0000-0000-000000000000)
 

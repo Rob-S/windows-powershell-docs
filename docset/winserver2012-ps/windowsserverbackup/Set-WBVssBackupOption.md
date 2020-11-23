@@ -3,8 +3,8 @@ external help file: WSBackup_Cmdlets.xml
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: F3EC835B-2CD6-4B2E-B840-DB3C977FBA89
 manager: dansimp
 ---
@@ -107,5 +107,4 @@ None
 
 ## RELATED LINKS
 
-[Get-WBVssBackupOptions](00000000-0000-0000-0000-000000000000)
-
+[Get-WBVssBackupOption](./Get-WBVssBackupOption.md)

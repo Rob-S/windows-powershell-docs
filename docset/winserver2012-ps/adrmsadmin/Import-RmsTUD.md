@@ -5,8 +5,8 @@ manager: dansimp
 online version: 
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ---
 
 # Import-RmsTUD
@@ -192,5 +192,5 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Export-RmsTUD](./Export-RmsTUD.md)
 
-[com/fwlink/?LinkId=136806](00000000-0000-0000-0000-000000000000)
+[ADRMSAdmin Module](./ADRMSAdmin.md)
 

@@ -3,8 +3,8 @@ external help file: ScheduledTask_Cmdlets.xml
 online version:
 schema: 2.0.0
 ms.reviewer:
-ms.author: v-anbarr
-author: andreabarr
+ms.author: v-kaunu
+author: Kateyanne
 ms.assetid: 0A57ABC4-35A8-43B2-81C2-193EB5E1FDA7
 manager: dansimp
 ---
@@ -71,6 +71,21 @@ Aliases: Session
 Required: False
 Position: Named
 Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: True
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
